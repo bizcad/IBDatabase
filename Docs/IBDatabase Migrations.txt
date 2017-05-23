@@ -1,0 +1,3 @@
+Enable-Migrations -ContextTypeName BizcadIBContext -ProjectName IBDatabase -StartUpProjectName BizcadIBBars.UI -Force
+Add-Migration -Name Initial -ProjectName IBDatabase -StartUpProjectName BizcadIBBars.UI
+Update-Database -ProjectName IBDatabase -StartUpProjectName BizcadIBBars.UI -Verbose
